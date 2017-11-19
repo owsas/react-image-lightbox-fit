@@ -1,6 +1,6 @@
 {
   "name": "react-image-lightbox-fit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lightbox for react that fits an image to the height set, and opens a modal",
   "main": "build/index.js",
   "scripts": {
