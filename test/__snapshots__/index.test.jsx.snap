@@ -1,7 +1,141 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test should match snapshot 1`] = `
+exports[`Rendered view should match snapshot when isModalOpen is false 1`] = `
 <div>
-  Hello world!
+  <div
+    className="img"
+    onClick={[Function]}
+    role="button"
+    style={
+      Object {
+        "backgroundColor": "black",
+        "backgroundImage": "url(test)",
+        "backgroundPosition": "center",
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "contain",
+        "height": 200,
+        "textAlign": "center",
+        "width": "100%",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+  >
+    <div
+      className="relatedImg"
+      key="img-0"
+      onClick={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "black",
+          "backgroundImage": "url(test)",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize": "cover",
+          "display": "inline-block",
+          "height": 60,
+          "marginBottom": 5,
+          "marginRight": 5,
+          "width": 60,
+        }
+      }
+    />
+    <div
+      className="relatedImg"
+      key="img-1"
+      onClick={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "black",
+          "backgroundImage": "url(test2)",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize": "cover",
+          "display": "inline-block",
+          "height": 60,
+          "marginBottom": 5,
+          "marginRight": 5,
+          "width": 60,
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Rendered view should match snapshot when isModalOpen is false 2`] = `
+<div>
+  <div
+    className="img"
+    onClick={[Function]}
+    role="button"
+    style={
+      Object {
+        "backgroundColor": "black",
+        "backgroundImage": "url(test)",
+        "backgroundPosition": "center",
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "contain",
+        "height": 200,
+        "textAlign": "center",
+        "width": "100%",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+  >
+    <div
+      className="relatedImg"
+      key="img-0"
+      onClick={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "black",
+          "backgroundImage": "url(test)",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize": "cover",
+          "display": "inline-block",
+          "height": 60,
+          "marginBottom": 5,
+          "marginRight": 5,
+          "width": 60,
+        }
+      }
+    />
+    <div
+      className="relatedImg"
+      key="img-1"
+      onClick={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "black",
+          "backgroundImage": "url(test2)",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize": "cover",
+          "display": "inline-block",
+          "height": 60,
+          "marginBottom": 5,
+          "marginRight": 5,
+          "width": 60,
+        }
+      }
+    />
+  </div>
 </div>
 `;
