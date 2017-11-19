@@ -56,8 +56,8 @@ module.exports = {
   plugins: [
   ],
   externals: []
-    .concat(pkg.peerDependencies)
-    .concat(pkg.dependencies),
+    .concat(pkg.peerDependencies),
+  // .concat(pkg.dependencies),
   module: {
     loaders,
   },
