@@ -1,8 +1,8 @@
 {
-  "name": "react-module-template",
+  "name": "react-image-lightbox-fit",
   "private": true,
   "version": "1.0.0",
-  "description": "All you need to create a module with ReactJS",
+  "description": "Lightbox for react that fits an image to the height set, and opens a modal",
   "main": "build/index.jsx",
   "scripts": {
     "prepublish": "npm run build",
@@ -35,7 +35,9 @@
     "react": "^16.1.1",
     "react-dom": "^16.1.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react-image-lightbox": "^4.3.0"
+  },
   "devDependencies": {
     "@types/jest": "^21.1.5",
     "babel": "^6.23.0",
