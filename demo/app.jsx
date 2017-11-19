@@ -36,7 +36,8 @@ const App = () => (
           <Index images={images} height={400} />
         </div>
         <div className="col-md-3">
-          <h1>Hola</h1>
+          <h1>Hello world</h1>
+          <p>This is a test paragraph</p>
         </div>
       </div>
     </div>
