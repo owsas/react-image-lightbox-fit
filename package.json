@@ -25,10 +25,6 @@
   ],
   "author": "Juan Camilo Guarin P",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/owsas/react-module-template/issues"
-  },
-  "homepage": "https://github.com/owsas/react-module-template#readme",
   "peerDependencies": {
     "prop-types": "^15.6.0",
     "react": "^16.1.1",
