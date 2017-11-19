@@ -10,7 +10,7 @@ import LightBoxFit from 'react-image-lightbox-fit';
 const App = () => (
   <div>
     <div className="visible-xs visible-sm">
-      <Index images={images} height={400} />
+      <LightBoxFit images={['https://dummyimage.com/300x500']} height={400} />
     </div>
     <div className="container">
 
