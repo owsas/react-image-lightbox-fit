@@ -79,7 +79,7 @@ export default class ReactImageLightboxFit extends React.Component {
           mainSrc={images[photoIndex]}
           nextSrc={images[(photoIndex + 1) % images.length]}
           prevSrc={images[(photoIndex + (images.length - 1)) % images.length]}
-
+          reactModalStyle={this.props.reactModalStyle}
           onCloseRequest={() => this.setState({ isModalOpen: false })}
           onMovePrevRequest={() => this.setState({
             photoIndex: (photoIndex + (images.length - 1)) % images.length,
@@ -96,10 +96,13 @@ export default class ReactImageLightboxFit extends React.Component {
 
 
 ReactImageLightboxFit.defaultProps = {
+  reactModalStyle: {},
 };
 
 
 ReactImageLightboxFit.propTypes = {
   height: PropTypes.number.isRequired,
   images: PropTypes.arrayOf(PropTypes.string).isRequired,
+  // eslint-disable-next-line
+  reactModalStyle: PropTypes.object,
 };
